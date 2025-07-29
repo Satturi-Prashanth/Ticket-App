@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ticket-pod
+spec:
+  containers:
+  - name: your-app-container
+    image: kowshika123/casestudy-nodejs:latest
+    ports:
+    - containerPort: 80
